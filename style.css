@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    background-color: rgb(192, 199, 202);
+    background-color: darkcyan;
+
+}
+.container{
+    color: darkred;
+    max-width: 75%;
+    margin: 0px auto;
+    padding: 30px;
+    font-size: 18px;
+    color: whitesmoke;
+
+}
+#img{
+    height: 120px;
+    width: 110px;
+    border: 3px solid rgb(192, 199, 202);
+    border-radius: 50%;
+    float: left;
+}
+h1,h2,h3,h4,h5,h6{
+    color: burlywood;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+    font-size: 20px;
+}
+.header-contact a{
+    text-decoration: none;
+    color: burlywood;
+    font-weight: bold;
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.clear-div{
+    clear: both;
+}
+hr{
+    margin: 20px auto;
+    width: 100%;
+    border: solid rgb(192, 199, 202) 3px;
+    border-bottom: none;
+}
+
+/* main content */
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: left;
+}
+.common-hr{
+    margin: 20px auto;
+    width: 100%;
+    border: solid rgb(192, 199, 202) 1px;
+    border-bottom: none;
+}
+.career-goals p{
+    text-align: justify;
+}
+.job-experiance li{
+    margin-left: 30px;
+    font-size: 14px;
+}
+.job-experiance ul{
+    margin-top: 5px;
+}
+.working-projects span{
+    display: block;
+    text-align: justify;
+}
+.edu-left-div{
+    float: left;
+    width: 45%;
+}
+.edu-right-div{
+    float: right;
+    width: 45%;
+}
+a{
+    text-decoration: none;
+    color: rgb(192, 199, 202);
+}
+a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+
+
+/* footer */
+.footer{
+    background-color: teal;
+    text-align: center;
+    padding: 10px;
+}
+.footer a{
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 20px;
+    font-weight: bold;
+}
+.footer a:hover{
+    color: tomato;
+    text-decoration: underline;
+}
+.footer p{
+    margin-top: 15px;
+}
+
+/* Media Query */
+@media screen and (max-width: 767px){
+    header{
+        text-align: center;
+    }
+    .header-bio,
+    .header-contact{
+        float: none;
+        padding: 15px;
+    }
+    
+    #img{
+        float: none;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .left-div{
+        width: 100%;
+        float: none;
+        margin-bottom: 15px;
+    }
+    .right-div{
+        width: 100%;
+        float: none;
+    }
+    .edu-left-div,
+    .edu-right-div{
+        width: 100%;
+        padding: 10px 0;
+    }
+}
